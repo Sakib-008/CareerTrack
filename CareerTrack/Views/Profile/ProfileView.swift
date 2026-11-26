@@ -33,20 +33,24 @@ struct ProfileView: View {
                             .cardStyle()
                     }
 
-                    contactCard
-                    educationCard
-                    skillsCard
-                    textCard(title: "Career Summary", icon: "text.alignleft", text: profile.summary)
-                    textCard(title: "Work Experience", icon: "briefcase", text: profile.workExperience)
-                    linksCard
+                    Group {
+                        contactCard
+                        educationCard
+                        skillsCard
+                        textCard(title: "Career Summary", icon: "text.alignleft", text: profile.summary)
+                        textCard(title: "Work Experience", icon: "briefcase", text: profile.workExperience)
+                        linksCard
+                    }
 
-                    Button(role: .destructive) {
+                    Button {
                         showingLogoutDialog = true
                     } label: {
-                        Label(logoutTitle,
-                              systemImage: "rectangle.portrait.and.arrow.right")
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 12)
+                        Label(
+                            logoutTitle,
+                            systemImage: "rectangle.portrait.and.arrow.right"
+                        )
+                        .frame(maxWidth: .infinity)
+                        .padding(.vertical, 12)
                     }
                     .buttonStyle(.bordered)
                     .tint(.red)
@@ -67,9 +71,18 @@ struct ProfileView: View {
             .sheet(isPresented: $showingEdit) {
                 ProfileEditView(profile: profile)
             }
-            .confirmationDialog("Are you sure you want to log out?", isPresented: $showingLogoutDialog,
-                                titleVisibility: .visible) {
-                Button("Log Out", role: .destructive) { auth.logout() }
+            .confirmationDialog(
+                "Are you sure you want to log out?",
+                isPresented: $showingLogoutDialog,
+                titleVisibility: .visible
+            ) {
+                Button("Log Out") {
+                    auth.logout()
+                }
+
+                Button("Cancel") {
+                    showingLogoutDialog = false
+                }
             }
         }
     }
