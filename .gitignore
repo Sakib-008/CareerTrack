@@ -1,0 +1,31 @@
+# ---- Xcode build output ----
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# ---- User-specific Xcode settings ----
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# ---- Swift Package Manager ----
+.build/
+.swiftpm/
+# Keep Package.resolved so every machine uses the same Firebase version.
+!*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# ---- Temporary / OS files ----
+.DS_Store
+*.swp
+*~
+*.tmp
+.idea/
+
+# ---- Local Firebase configuration (contains API keys) ----
+GoogleService-Info.plist

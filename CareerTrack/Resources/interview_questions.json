@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "hr",
+      "name": "HR Questions",
+      "icon": "person.2.fill",
+      "description": "General questions about you, your motivation and your fit with the company.",
+      "tips": [
+        "Research the company's products, values and recent news before the interview.",
+        "Keep answers to about 1–2 minutes and stay positive.",
+        "Prepare two or three questions to ask the interviewer at the end."
+      ],
+      "questions": [
+        {
+          "id": "hr-1",
+          "question": "Tell me about yourself.",
+          "difficulty": "Easy",
+          "tip": "Use a present–past–future structure and connect it to the role.",
+          "sampleAnswer": "I'm a final-year Computer Science student focusing on mobile development. Over the last two years I've built several iOS apps for university projects, including a job tracker using SwiftUI and Firebase. I also worked as a lab teaching assistant, which improved my communication skills. Now I'm looking for an internship where I can contribute to real products and keep learning from experienced engineers.",
+          "keyPoints": [
+            "Current situation (studies, focus area)",
+            "Relevant past experience or projects",
+            "Why you are interested in this role"
+          ]
+        },
+        {
+          "id": "hr-2",
+          "question": "Why do you want to work for our company?",
+          "difficulty": "Easy",
+          "tip": "Mention something specific about the company, not just the salary or location.",
+          "sampleAnswer": "I've used your app regularly and I like how simple the experience is. I also read about your engineering team's focus on mobile performance, which matches what I enjoy working on. I believe I can learn a lot here and contribute with my SwiftUI experience.",
+          "keyPoints": [
+            "A specific product, value or achievement of the company",
+            "How it connects to your interests",
+            "What you can contribute"
+          ]
+        },
+        {
+          "id": "hr-3",
+          "question": "What are your strengths?",
+          "difficulty": "Easy",
+          "tip": "Pick strengths that matter for the job and prove each one with an example.",
+          "sampleAnswer": "One of my strengths is breaking down large problems. In my last semester project I split a big app into small modules with clear tasks, and we finished a week early. I'm also a quick learner: I learned Firebase in two weeks to add cloud sync to a project.",
+          "keyPoints": [
+            "Two or three job-relevant strengths",
+            "A short example for each",
+            "Results you achieved"
+          ]
+        },
+        {
+          "id": "hr-4",
+          "question": "What is your biggest weakness?",
+          "difficulty": "Medium",
+          "tip": "Choose a real but non-critical weakness and show how you are improving.",
+          "sampleAnswer": "I sometimes spend too long polishing details. I've started time-boxing tasks and asking for feedback earlier, which helps me deliver on time while keeping good quality.",
+          "keyPoints": [
+            "An honest, non-critical weakness",
+            "Concrete steps you are taking",
+            "Evidence of improvement"
+          ]
+        },
+        {
+          "id": "hr-5",
+          "question": "Where do you see yourself in five years?",
+          "difficulty": "Medium",
+          "tip": "Show ambition that fits the company's growth path.",
+          "sampleAnswer": "I see myself as a strong mobile engineer who owns features end to end and mentors newer developers. I'd like to grow inside a team where I can take on more responsibility over time.",
+          "keyPoints": [
+            "Realistic professional goals",
+            "Link to the role and company",
+            "Willingness to learn and grow"
+          ]
+        },
+        {
+          "id": "hr-6",
+          "question": "What are your salary expectations?",
+          "difficulty": "Hard",
+          "tip": "Research typical ranges first and give a range rather than a single number.",
+          "sampleAnswer": "Based on my research for similar roles in this city, I'm expecting something in the range of X to Y. I'm flexible, and learning opportunities are also very important to me.",
+          "keyPoints": [
+            "Researched market range",
+            "Flexibility",
+            "Focus on the overall opportunity"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behavioral",
+      "name": "Behavioral Questions",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "description": "Questions about how you acted in real situations. Use the STAR method.",
+      "tips": [
+        "Use STAR: Situation, Task, Action, Result.",
+        "Focus on what YOU did, even in team projects.",
+        "Prepare 4–5 stories you can adapt to different questions."
+      ],
+      "questions": [
+        {
+          "id": "behavioral-1",
+          "question": "Tell me about a time you worked in a team.",
+          "difficulty": "Easy",
+          "tip": "Highlight communication and your specific role.",
+          "sampleAnswer": "In our database course project (Situation), our team of four had to design a library system (Task). I set up a shared task board and weekly meetings, and I designed the schema (Action). We submitted on time and got one of the highest grades in the class (Result).",
+          "keyPoints": [
+            "Clear situation and goal",
+            "Your personal actions",
+            "A measurable result"
+          ]
+        },
+        {
+          "id": "behavioral-2",
+          "question": "Describe a conflict with a teammate and how you handled it.",
+          "difficulty": "Medium",
+          "tip": "Stay neutral, never blame, and show a calm resolution.",
+          "sampleAnswer": "Two teammates disagreed about which framework to use. I suggested we list the requirements and compare both options against them. We picked one together, and the person whose idea wasn't chosen led the testing part, so everyone stayed involved.",
+          "keyPoints": [
+            "Describe the conflict briefly",
+            "Show listening and compromise",
+            "Positive outcome for the team"
+          ]
+        },
+        {
+          "id": "behavioral-3",
+          "question": "Tell me about a time you failed.",
+          "difficulty": "Medium",
+          "tip": "Choose a real failure and focus on what you learned.",
+          "sampleAnswer": "In my first hackathon I tried to build too many features and our demo crashed. I learned to agree on a minimum working version first. In the next hackathon we delivered a stable demo and placed in the top five.",
+          "keyPoints": [
+            "Own the mistake",
+            "What you learned",
+            "How you applied the lesson later"
+          ]
+        },
+        {
+          "id": "behavioral-4",
+          "question": "Describe a time you had to meet a tight deadline.",
+          "difficulty": "Medium",
+          "tip": "Show planning and prioritization.",
+          "sampleAnswer": "Two assignments and a lab exam fell in the same week. I listed tasks by deadline and effort, finished the smaller assignment first and used short focused sessions for the bigger one. I submitted both on time and did well in the exam.",
+          "keyPoints": [
+            "Prioritization",
+            "Time management",
+            "Result under pressure"
+          ]
+        },
+        {
+          "id": "behavioral-5",
+          "question": "Give an example of when you showed leadership.",
+          "difficulty": "Hard",
+          "tip": "Leadership does not require a title; show initiative.",
+          "sampleAnswer": "When our project group lost momentum, I proposed splitting the work into weekly milestones and offered to coordinate. I checked in with each member and helped one teammate who was stuck. The project was completed and the professor praised our organization.",
+          "keyPoints": [
+            "Initiative without being asked",
+            "Supporting others",
+            "Impact on the team result"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "name": "Technical Questions",
+      "icon": "chevron.left.forwardslash.chevron.right",
+      "description": "Programming, iOS and computer science fundamentals.",
+      "tips": [
+        "Think out loud so the interviewer can follow your reasoning.",
+        "Ask clarifying questions before writing code.",
+        "Mention time and space complexity when discussing solutions."
+      ],
+      "questions": [
+        {
+          "id": "technical-1",
+          "question": "What is the difference between a struct and a class in Swift?",
+          "difficulty": "Easy",
+          "tip": "Focus on value vs reference semantics.",
+          "sampleAnswer": "Structs are value types: when you assign or pass them, a copy is made. Classes are reference types: variables share the same instance. Classes also support inheritance and deinitializers. SwiftUI prefers structs for views and models because copies are predictable.",
+          "keyPoints": [
+            "Value type vs reference type",
+            "Inheritance only for classes",
+            "When to choose each"
+          ]
+        },
+        {
+          "id": "technical-2",
+          "question": "Explain @State, @Binding and @ObservedObject in SwiftUI.",
+          "difficulty": "Medium",
+          "tip": "Explain who owns the data in each case.",
+          "sampleAnswer": "@State stores simple data owned by a view. @Binding gives a child view read-write access to state owned by a parent. @ObservedObject watches an external ObservableObject passed in from outside, while @StateObject creates and owns one so it survives view updates.",
+          "keyPoints": [
+            "Ownership of data",
+            "Parent–child data sharing",
+            "Difference between @ObservedObject and @StateObject"
+          ]
+        },
+        {
+          "id": "technical-3",
+          "question": "What is the time complexity of searching in a balanced binary search tree?",
+          "difficulty": "Easy",
+          "tip": "Relate the answer to the height of the tree.",
+          "sampleAnswer": "Searching a balanced BST is O(log n) because each comparison removes about half of the remaining nodes. In an unbalanced tree it can degrade to O(n).",
+          "keyPoints": [
+            "O(log n) average for balanced trees",
+            "Worst case O(n) when unbalanced",
+            "Why height matters"
+          ]
+        },
+        {
+          "id": "technical-4",
+          "question": "How would you reverse a linked list?",
+          "difficulty": "Medium",
+          "tip": "Draw the pointers before coding.",
+          "sampleAnswer": "I would use three pointers: previous, current and next. While current is not nil, I save next, point current.next to previous, then move previous and current one step forward. At the end, previous is the new head. This is O(n) time and O(1) space.",
+          "keyPoints": [
+            "Iterative approach with pointers",
+            "Edge cases: empty or single node",
+            "Complexity"
+          ]
+        },
+        {
+          "id": "technical-5",
+          "question": "What is the difference between SQL and NoSQL databases?",
+          "difficulty": "Medium",
+          "tip": "Give an example of when you would choose each.",
+          "sampleAnswer": "SQL databases store data in tables with a fixed schema and support joins and strong consistency. NoSQL databases like Firestore store flexible documents and scale easily. I used Firestore in CareerTrack because each user's data is naturally a set of documents.",
+          "keyPoints": [
+            "Schema and structure",
+            "Scalability and flexibility",
+            "Example use case"
+          ]
+        },
+        {
+          "id": "technical-6",
+          "question": "Explain what happens when you type a URL into a browser.",
+          "difficulty": "Hard",
+          "tip": "Go step by step from DNS to rendering.",
+          "sampleAnswer": "The browser resolves the domain with DNS, opens a TCP connection (and TLS for HTTPS), sends an HTTP request, and the server returns a response. The browser then parses HTML, loads CSS, JavaScript and images, and renders the page.",
+          "keyPoints": [
+            "DNS lookup",
+            "TCP/TLS and HTTP request",
+            "Rendering the response"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internship",
+      "name": "Internship Questions",
+      "icon": "graduationcap.fill",
+      "description": "Questions commonly asked to students applying for internships.",
+      "tips": [
+        "Talk about university projects as real experience.",
+        "Show eagerness to learn and accept feedback.",
+        "Know your own CV well; every line can become a question."
+      ],
+      "questions": [
+        {
+          "id": "internship-1",
+          "question": "Why are you interested in this internship?",
+          "difficulty": "Easy",
+          "tip": "Connect the internship to your studies and career goals.",
+          "sampleAnswer": "This internship lets me apply what I learned in mobile computing to a real product. I want to learn how professional teams review code and release apps, and your team works on exactly the kind of apps I want to build.",
+          "keyPoints": [
+            "Link to your studies",
+            "What you want to learn",
+            "Why this company specifically"
+          ]
+        },
+        {
+          "id": "internship-2",
+          "question": "Tell me about a project you are proud of.",
+          "difficulty": "Medium",
+          "tip": "Explain the problem, your role, the technology and the result.",
+          "sampleAnswer": "I'm proud of CareerTrack, an iOS app to manage job applications. I built it with SwiftUI and Firebase, including authentication, cloud storage, reminders and analytics. It taught me how to organize code with view models and services.",
+          "keyPoints": [
+            "Problem the project solves",
+            "Your role and technologies",
+            "What you learned"
+          ]
+        },
+        {
+          "id": "internship-3",
+          "question": "How do you handle feedback or criticism?",
+          "difficulty": "Easy",
+          "tip": "Show that you see feedback as a way to improve.",
+          "sampleAnswer": "I try to listen fully, ask questions to understand, and then act on it. When my lab instructor said my code lacked comments, I started writing short explanations for complex logic, and my next submissions were easier to review.",
+          "keyPoints": [
+            "Openness",
+            "Example of applying feedback",
+            "Improvement"
+          ]
+        },
+        {
+          "id": "internship-4",
+          "question": "How do you balance studies with other responsibilities?",
+          "difficulty": "Medium",
+          "tip": "Show organization and realistic planning.",
+          "sampleAnswer": "I use a weekly planner and block time for classes, assignments and my teaching assistant work. I start large tasks early and review my plan every Sunday.",
+          "keyPoints": [
+            "Planning tools or habits",
+            "Prioritization",
+            "Example of it working"
+          ]
+        },
+        {
+          "id": "internship-5",
+          "question": "What do you want to learn during this internship?",
+          "difficulty": "Easy",
+          "tip": "Be specific: tools, processes and soft skills.",
+          "sampleAnswer": "I want to learn how to write production-quality code, use code review and testing properly, and work in an agile team. I'd also like to improve my communication with designers and product managers.",
+          "keyPoints": [
+            "Technical skills",
+            "Team processes",
+            "Soft skills"
+          ]
+        }
+      ]
+    }
+  ]
+}

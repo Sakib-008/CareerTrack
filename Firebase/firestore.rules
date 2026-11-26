@@ -1,0 +1,28 @@
+rules_version = '2';
+
+// CareerTrack Firestore security rules.
+// Every user can only read and write documents under users/{their own uid}.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // users/{userId}
+    match /users/{userId} {
+      allow read, write: if isOwner(userId);
+
+      // users/{userId}/applications/{id}, users/{userId}/interviews/{id}, users/{userId}/profile/main
+      match /{collection}/{documentId} {
+        allow read, write: if isOwner(userId)
+          && collection in ['applications', 'interviews', 'profile'];
+      }
+    }
+
+    // Everything else is denied.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
